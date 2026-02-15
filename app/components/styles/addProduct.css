@@ -1,0 +1,61 @@
+.addProductContainer {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.addProductForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.addProductForm label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  margin-top: 15px;
+  color: #333;
+}
+
+.addProductForm input,
+.addProductForm textarea {
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.addProductForm input:focus,
+.addProductForm textarea:focus {
+  border-color: #0070f3;
+}
+
+.addProductForm textarea {
+  resize: vertical;
+  min-height: 90px;
+}
+
+.addProductForm input[type="file"] {
+  padding: 6px;
+}
+
+.submitBtn {
+  margin-top: 25px;
+  padding: 12px;
+  background-color: #0070f3;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.submitBtn:hover {
+  background-color: #0059c1;
+}

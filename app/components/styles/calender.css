@@ -1,0 +1,43 @@
+.calendar-wrapper {
+  width: 320px;
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+.date-display {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #fff;
+  text-align: center;
+  font-weight: 500;
+}
+
+.date-display:hover {
+  border-color: #007bff;
+}
+
+.calendar-box {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.apply-btn {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  background: #007bff;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.apply-btn:hover {
+  background: #0056b3;
+}
