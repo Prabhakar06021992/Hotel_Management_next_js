@@ -1,6 +1,6 @@
-import DBConnection from "@/app/utils/config/db";
-import UserModel from "@/app/utils/models/User";
-import { auth } from "@/app/auth";
+import DBConnection from '../../utils/config/db';
+import UserModel from '../../utils/models/User';
+import { auth } from '../../auth';
 
 export default async function Page() {
   await DBConnection();
